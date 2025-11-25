@@ -11,15 +11,15 @@ This repository contains the code, simulation assets, experiment files, and anal
 <table>
   <tr>
     <td align="center">
-      <img src="figures/int1Edited.gif" width="200"><br>
+      <img src="figures/int1Edited.gif" width="225"><br>
       <strong>Concept A</strong>
     </td>
     <td align="center">
-      <img src="figures/int2Edited.gif" width="200"><br>
+      <img src="figures/int2Edited.gif" width="225"><br>
       <strong>Concept B</strong>
     </td>
     <td align="center">
-      <img src="figures/int3Edited.gif" width="200"><br>
+      <img src="figures/int3Edited.gif" width="225"><br>
       <strong>Concept C</strong>
     </td>
   </tr>
