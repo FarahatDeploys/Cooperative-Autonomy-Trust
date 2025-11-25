@@ -6,6 +6,25 @@ This repository contains the code, simulation assets, experiment files, and anal
 “Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated Augmented Reality Displays”  
 *AutomotiveUI ’25 — Brisbane, Australia*
 
+
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/int1Edited.gif" width="300"><br>
+      <strong>Concept A</strong>
+    </td>
+    <td align="center">
+      <img src="figures/int2Edited.gif" width="300"><br>
+      <strong>Concept B</strong>
+    </td>
+    <td align="center">
+      <img src="figures/int3Edited.gif" width="300"><br>
+      <strong>Concept C</strong>
+    </td>
+  </tr>
+</table>
+
 ## Authors
 - Hady Ahmed Mohamed Farahat  
 - Malak Sadek  
