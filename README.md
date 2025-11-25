@@ -1,133 +1,147 @@
-Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated AR Displays
+# Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated AR Displays
 
 This repository contains the code, simulation assets, experiment files, and analysis supporting the paper:
 
-“Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated Augmented Reality Displays”
-AutomotiveUI ’25 — Brisbane, Australia
+**Paper:**  
+“Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated Augmented Reality Displays”  
+*AutomotiveUI ’25 — Brisbane, Australia*
 
-Authors:
-Hady Ahmed Mohamed Farahat, Malak Sadek, Sherif Aly, Khalil Elkhodary, Amr Elmougy
-(American University in Cairo, Imperial College London, Cambridge University)
+## Authors
+- Hady Ahmed Mohamed Farahat  
+- Malak Sadek  
+- Sherif Aly  
+- Khalil Elkhodary  
+- Amr Elmougy  
 
-Overview
+**Affiliations:**  
+American University in Cairo | Imperial College London | University of Cambridge
 
-Future Fully Autonomous Vehicles (FAVs) will operate not only independently but in cooperative multi-agent environments, using V2X technology to negotiate road conditions, lane changes, and shared traffic maneuvers.
+---
 
-A major barrier to adoption is passenger trust—not only in their own vehicle (ego) but also in cooperating vehicles around them.
+## Overview
 
-This project investigates how Augmented Reality (AR) interfaces can improve trust, situational awareness, and user acceptance of cooperative autonomous vehicles.
+Future Fully Autonomous Vehicles (FAVs) will operate not only independently but also in cooperative multi-agent environments, using V2X technology to negotiate road conditions, lane changes, and shared traffic maneuvers.
 
-Research Goal
+A major barrier to adoption is **passenger trust**—not only in their own vehicle (ego) but also in cooperating vehicles around them.
+
+This project investigates how **Augmented Reality (AR) interfaces** can improve trust, situational awareness, and user acceptance of cooperative autonomous vehicles.
+
+---
+
+## Research Goal
 
 Investigate how three different AR transparency concepts impact:
 
-Trust in the ego vehicle
-
-Trust in nearby cooperating AVs
-
-Situational awareness
-
-Cognitive workload
-
-Technology acceptance
+- Trust in the ego vehicle  
+- Trust in nearby cooperating AVs  
+- Situational awareness  
+- Cognitive workload  
+- Technology acceptance  
 
 The study simulates cooperative driving scenarios using virtual reality, custom AR overlays, and V2X-based information sharing.
 
-System Architecture
+---
+
+## System Architecture
 
 This project integrates:
 
-DReyeVR simulator (Unreal Engine)
+- **DReyeVR simulator** (Unreal Engine)  
+- Custom **path-planning algorithms**  
+- **V2V/V2I communication modules**  
+- **AR interface rendering** inside VR  
+- **Scenario scripts** for cooperative maneuvers  
+- **Data collection and statistical analysis**
 
-Custom path-planning algorithms
+---
 
-V2V/V2I communication modules
-
-AR interface rendering inside VR
-
-Scenario scripts for cooperative maneuvers
-
-Data collection and statistical analysis
-
-Interface Concepts
+## Interface Concepts
 
 Three AR interface concepts were implemented:
 
-A — No Transparency
-Shows only vehicle speed. No information about ego intentions or other agents.
+**A — No Transparency**  
+- Shows only vehicle speed  
+- No information about ego intentions or other agents  
 
-B — System-Level Transparency
-Shows the ego vehicle’s planned path.
-Helps predict ego behavior but no insight into surrounding vehicles.
+**B — System-Level Transparency**  
+- Shows the ego vehicle’s planned path  
+- Helps predict ego behavior but no insight into surrounding vehicles  
 
-C — Environment-Level Transparency (V2X-enabled)
-Shows cooperative intentions
-Shows other vehicles’ planned paths
-Shows road blockages and infrastructure
-Includes a mini-map with full situational information
-This is the most advanced and most effective concept.
+**C — Environment-Level Transparency (V2X-enabled)**  
+- Shows cooperative intentions  
+- Shows other vehicles’ planned paths  
+- Shows road blockages and infrastructure  
+- Includes a mini-map with full situational information  
+- Most advanced and effective concept  
 
-Driving Scenario
+---
+
+## Driving Scenario
 
 A 3-minute VR scenario includes:
 
-Tunnel road blockage
+- Tunnel road blockage  
+- Emergency vehicle swerve  
+- Cooperative lane-change negotiation  
+- Vehicles cutting in  
+- Sharp turns and unexpected maneuvers  
 
-Emergency vehicle swerve
+All interfaces use the same scenario in a **counterbalanced Latin Square order**.
 
-Cooperative lane-change negotiation
+---
 
-Vehicles cutting in
+## User Study
 
-Sharp turns and unexpected maneuvers
+- **Participants:** 30 (ages 18–34, M = 23.8)  
+- **Measurements:**  
+  - Trust in Automation  
+  - SART (Situational Awareness)  
+  - NASA-TLX (Cognitive Load)  
+  - TAM (Technology Acceptance Model)  
 
-All interfaces use the same scenario in a counterbalanced Latin Square order.
+**Key Results:**
 
-User Study
+| Metric | A | B | C |
+|--------|---|---|---|
+| Trust (Ego Vehicle) | Low | Medium | High |
+| Trust (Cooperative Vehicles) | Low | Medium | High |
+| Situational Awareness | Low | Medium | High |
+| Cognitive Workload | Low | Medium | Slightly higher |
+| Technology Acceptance | Medium | High | Highest |
 
-Participants: 30 (ages 18–34, M = 23.8)
-Measurements used:
+*Users preferred Interface C due to its predictability and clarity, despite extra visual information.*
 
-Trust in Automation
+---
 
-SART (Situational Awareness)
-
-NASA-TLX (Cognitive Load)
-
-TAM (Technology Acceptance Model)
-
-Key Results
-
-Trust (Ego Vehicle): C > B > A
-Trust (Cooperative Vehicles): C > B > A
-Situational Awareness: C > B > A
-Cognitive Workload: C slightly higher than B (not significant)
-Technology Acceptance: C highest for usefulness, attitude, and adoption intention
-
-Users preferred Interface C due to its predictability and clarity, despite the extra visual information.
-
-Repository Structure
+## Repository Structure
 
 src/ — AR overlays, V2X logic, DReyeVR modifications
-simulation/ — Maps, scenarios, configs
+simulation/ — Maps, scenarios, configuration files
 analysis/ — Statistical notebooks
 data/ — (Optional) raw and processed study data
 docs/ — Paper and documentation
 figures/ — Screenshots and graphs
 
-How to Run
 
-Install dependencies with requirements.txt
+---
 
-Install Unreal Engine + DReyeVR
+## How to Run
 
-Run the cooperative scenario
+1. Install dependencies from `requirements.txt`  
+2. Install **Unreal Engine** and **DReyeVR**  
+3. Run the cooperative scenario  
+4. Analyze results using notebooks in `/analysis`  
 
-Analyze results using notebooks in /analysis
+---
 
-License
-MIT License (modifiable).
+## License
 
-Citation
-Farahat, H.A.M., Sadek, M., Aly, S., Elkhodary, K., & Elmougy, A. (2025).
-Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated Augmented Reality Displays. AutomotiveUI ’25, Brisbane, Australia.
+MIT License (modifiable)
+
+---
+
+## Citation
+
+Farahat, H.A.M., Sadek, M., Aly, S., Elkhodary, K., & Elmougy, A. (2025).  
+*Enhancing Passenger Trust Toward Cooperative Autonomous Vehicles Using Simulated Augmented Reality Displays.*  
+AutomotiveUI ’25, Brisbane, Australia.
