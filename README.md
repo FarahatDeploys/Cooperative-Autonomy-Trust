@@ -118,28 +118,25 @@ All interfaces use the same scenario in a **counterbalanced Latin Square order**
   - NASA-TLX (Cognitive Load)  
   - TAM (Technology Acceptance Model)  
 
-**Key Results:**
+## Key Results
 
-| Metric | A | B | C |
-|--------|---|---|---|
-| Trust (Ego Vehicle) | Low | Medium | High |
-| Trust (Cooperative Vehicles) | Low | Medium | High |
-| Situational Awareness | Low | Medium | High |
-| Cognitive Workload | Low | Medium | Slightly higher |
-| Technology Acceptance | Medium | High | Highest |
+| Metric                     | Interface A                | Interface B                 | Interface C                 |
+|---------------------------|----------------------------|-----------------------------|-----------------------------|
+| **Trust (Ego Vehicle)**              | 2.10 ± 0.93                | 4.18 ± 1.12                 | 5.44 ± 1.14                 |
+| **Trust (Cooperative Vehicles)**    | 2.07 ± 1.06                | 2.98 ± 1.20                 | 4.88 ± 1.31                 |
+| **Situational Awareness (SART)**    | 1.82 ± 0.89                | 4.21 ± 1.07                 | 5.60 ± 1.00                 |
+| **Cognitive Workload (NASA‑TLX)**   | 2.55 ± 0.74                | 2.35 ± 0.94                 | 2.95 ± 1.34                 |
+| **Technology Acceptance (TAM)**     | see paper / analysis data  | see paper / analysis data   | see paper / analysis data   |
 
-*Users preferred Interface C due to its predictability and clarity, despite extra visual information.*
-
----
 
 ## Repository Structure
 
-src/ — AR overlays, V2X logic, DReyeVR modifications
-simulation/ — Maps, scenarios, configuration files
-analysis/ — Statistical notebooks
-data/ — (Optional) raw and processed study data
-docs/ — Paper and documentation
-figures/ — Screenshots and graphs
+- **src/** — AR overlays, V2X logic, DReyeVR modifications  
+- **simulation/** — Maps, scenarios, configuration files  
+- **analysis/** — Statistical notebooks  
+- **data/** — (Optional) raw and processed study data  
+- **docs/** — Paper and documentation  
+- **figures/** — Screenshots and graphs  
 
 
 ---
