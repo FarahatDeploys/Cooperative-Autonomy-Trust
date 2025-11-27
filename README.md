@@ -45,6 +45,11 @@ A major barrier to adoption is **passenger trust**—not only in their own vehic
 
 This project investigates how **Augmented Reality (AR) interfaces** can improve trust, situational awareness, and user acceptance of cooperative autonomous vehicles.
 
+
+## Tools and Technologies
+
+This project uses the following tools and technologies: **Python, C++, C, and Jupyter Notebook**.
+
 ---
 
 ## Research Goal
