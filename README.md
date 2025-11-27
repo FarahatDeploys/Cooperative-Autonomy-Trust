@@ -134,7 +134,7 @@ All interfaces use the same scenario in a **counterbalanced Latin Square order**
 - **src/** — AR overlays, V2X logic, DReyeVR modifications  
 - **simulation/** — Maps, scenarios, configuration files  
 - **analysis/** — Statistical notebooks  
-- **data/** — (Optional) raw and processed study data  
+- **dataset/** — (Optional) raw and processed study data  
 - **docs/** — Paper and documentation  
 - **figures/** — Screenshots and graphs  
 
