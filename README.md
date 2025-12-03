@@ -66,7 +66,7 @@ The study simulates cooperative driving scenarios using virtual reality, custom 
 
 ---
 
-## System Architecture
+## Architecture
 
 This project integrates:
 
